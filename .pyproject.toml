@@ -1,0 +1,13 @@
+[metadata]
+name = django-test-signals
+author = Zakamarek
+author_email = Zakamarek@gmail.com
+description = Django test case which helps to test Django signals.
+url = https://github.com/zakamarek/django-test-signals
+
+[options]
+package_dir = django_test_signals
+packages = find
+
+[tool.black]
+skip-string-normalization = true

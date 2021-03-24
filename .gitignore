@@ -1,0 +1,9 @@
+*~
+*.orig
+*.iml
+*.pyc
+*.swp
+*.swo
+
+/dist/*
+django_test_signals.egg-info/*

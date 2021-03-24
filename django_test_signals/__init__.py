@@ -1,4 +1,4 @@
-'Django test cases which helps to test Django signals.'
+'Django test case which helps to test Django signals.'
 
 import django.utils.version
 
