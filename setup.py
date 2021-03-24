@@ -15,7 +15,6 @@ setup(
 	platforms='ALL',
 	classifiers = [
 		'Intended Audience :: Developers',
-		'License :: OSI Approved :: MIT',
 		'Programming Language :: Python',
 		'Topic :: Software Development :: Libraries :: Python Modules',
 	],
