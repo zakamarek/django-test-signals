@@ -1,0 +1,8 @@
+[flake8]
+ignore =
+	# line too long
+	E501,
+	# indentation contains tabs
+	W191,
+
+max-line-length = 88
