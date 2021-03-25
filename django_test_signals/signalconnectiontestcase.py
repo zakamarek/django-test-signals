@@ -43,12 +43,11 @@ class SignalConnectionTestCase(SimpleTestCase):
 			return receiver.__module__ + '.' + receiver.__name__
 		return None
 
-	def verify(self, expected, django_receivers):
-		'Verifies if all expected signals exist among given Django receivers'
-		django_receivers = [self.get_full_name(r) for r in django_receivers if self.get_full_name(r)]
-		print(django_receivers)
+	def verify(self, expected, receivers):
+		'Verifies if all expected signals exist among given receivers'
+		receivers = [self.get_full_name(r) for r in receivers if self.get_full_name(r)]
 		for function in expected:
-			self.assertIn(function, django_receivers)
+			self.assertIn(function, receivers)
 
 	def test_signal_connections(self):
 		'Verifies if all declared lists of signals exist among discovered Django receivers'
