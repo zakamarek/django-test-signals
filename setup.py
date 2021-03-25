@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
 	name = 'django-test-signals',
-	version = '0.0.4',
+	version = '0.0.5',
 	packages = ['django_test_signals'],
 	install_requires = ['django>=1.0'],
 	author = 'Zakamarek',
